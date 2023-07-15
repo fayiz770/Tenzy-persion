@@ -18,7 +18,7 @@ main{
 }
 .container{
   background-color: lightblue;
-  margin: auto 30% auto 30%;
+  margin: auto 10% auto 30%;
 }
 .dice{
   display: grid;
