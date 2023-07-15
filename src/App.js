@@ -44,7 +44,7 @@ function App() {
     if(allHeld && allTheSame){
       setTenzies(true)
       sweetalert({
-        title: 'شما بدنده شدید!',
+        title: 'شما برنده شدید',
         icon: 'success',
       })
     }
@@ -56,7 +56,7 @@ function App() {
         {tenzies && <Confetti />}
         <h1>Tenzies </h1>
         <p dir='rtl'>
-          تا وقتیکه همه ای مربع ها مشابه شود بچرخانید, و هر بار عدد دلخواه تانرا انتخاب کنید
+          <h1>تا وقتیکه همه ای مربع ها مشابه شود بچرخانید, و هر بار عدد دلخواه تانرا انتخاب کنید</h1>
         </p>
         <div className='dice'>
           {allDice}
